@@ -1,11 +1,11 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
 
 type AddItemFormPropsType = {
-    callBack: (newTitle:string) => void
+    callBack: (newTitle: string) => void
 }
 
 
-export const AddItemForm = (props:AddItemFormPropsType) => {
+export const AddItemForm = (props: AddItemFormPropsType) => {
     const [title, setTitle] = useState<string>('')
     const [error, setError] = useState<string | null>(null)
 

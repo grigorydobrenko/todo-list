@@ -3,7 +3,7 @@ import React, {ChangeEvent, useState} from 'react';
 
 type EditableSpanPropsType = {
     title: string
-    onChange:(newTitle:string)=>void
+    onChange: (newTitle: string) => void
 }
 
 const EditableSpan = (props: EditableSpanPropsType) => {
